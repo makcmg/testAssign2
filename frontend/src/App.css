@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.order_data {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.order_data td, #order_data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.order_data tr:nth-child(even){background-color: #f2f2f2;}
+
+.order_data tr:hover {background-color: #ddd;}
+
+.order_data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.chart {
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+#total {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#total th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#total td {
+  font-size: 50px;
+}
+
+.tables_data {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo {
+  padding: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
